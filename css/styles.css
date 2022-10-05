@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-top: 56px;
-    min-height: 100vh;
+    min-height: 75vh;
 }
 
 main {
@@ -11,21 +11,23 @@ main {
 
 #carouselExampleIndicators img {
     width: 100%;
-    height: calc(100vh - 56px - 50px);
+    height: calc(75vh - 56px - 50px);
     object-fit: cover;
 }
 
 #second-navbar {
-    background-color: gray;
+    background-color: grey;
     display: flex;
 }
 
-#second-navbar {
+#second-navbar a {
     height: 50px;
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Lucida Sans' sans-serif;
+    font-weight: bold;
 }
 
 #second-navbar a:hover {
@@ -37,7 +39,7 @@ main {
     padding-bottom: 30px;
 }
 
-#meet-the-team {
+#happy-news img {
     width: 100%;
     margin: 15px;
 }
